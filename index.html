@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AL-kersh Cars</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css.map" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Lobster&family=Sevillana&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap"
+    rel="stylesheet">
+
+    <!-- logo -->
+    <link rel="icon" href="./images/logo.png" type="image/png" sizes="16x16">
+
+  <link rel="stylesheet" href="./css/aos.css" />
+
+</head>
+
+<body>
+
+  <nav class="navbar sticky-top navbar-expand-md navbar-light shadow-none bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="./images/logo.png" width="50px" hieght="50px " alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active   fw-bold" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="true">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu"  style="height:300px;overflow: auto; width:auto !important"  id="model-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <!-- htmls will come from main.js -->
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- disappere when click on model-dropdown-menu -->
+  <div class="landing" id="landing-section">
+    <div class="container align-self-center">
+      <img id="headerImage" style="object-fit: contain;" src="./images/image-4.png">
+      <div class="text">
+        <h2 style="display: inline;" id="headerTitle">Welcome To Our Company</h2>
+        <p id="headerDescription" class=" fs-3 fw-bold "> 
+          Here we can show our product of cars and our services like car engine
+          repair and type of engine repair 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- for show image -->
+  <div class="d-none" id="landing_section_image">
+    <div class="container">
+      <img id="landing_section_image_show" />
+    </div>
+  </div>
+
+
+  <div id="services" data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease-in-sine" class="services text-center">
+    <div class="container ">
+      <div class="main-title fs-7 mt-20 mb-20 position-relative ">
+        <h2>Our services</h2>
+        <p class="paragraph text-black-50 ">Welcome to our services </p>
+      </div>
+      <div class="row py-2">
+        <div class="col-md-6 col-lg-4" data-aos="fade-right"
+        data-aos-duration="700">
+          <img class="engine" src="./images/engine1.jpg">
+          <div class="feat">
+            <h4 class="mb-3 mt-3 ">Repair Engine</h4>
+            <p class="text-black-50  lh-lg">
+              We provide full-mobilized car workshop services at the chosen time and location, with experienced
+              technicians, high-quality tools, and competitive prices.
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up"
+        data-aos-duration="700">
+          <img class="engine" src="./images/engine2.jpg">
+
+          <div class="feat">
+            <h4 class="mb-3 mt-3 ">Repair type of engine</h4>
+            <p class="text-black-50 lh-lg">
+              We provide full-mobilized car workshop services at the chosen time and location, with experienced
+              technicians, high-quality tools, and competitive prices.
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-left"
+        data-aos-duration="700">
+          <img class="engine" src="./images/engine3.jpg">
+          <div class="feat" id="engine3">
+            <h4 class="mb-3 ">Repair engines </h4>
+            <p class="    text-black-50 lh-lg">
+              We provide full-mobilized car workshop services at the chosen time and location, with experienced
+              technicians, high-quality tools, and competitive prices.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="about " id="about" data-aos="fade-up" >
+    <div class="container">
+      <div class="main-title  fs-7  mt-20 mb-20   position-relative ">
+        <h2>About us</h2>
+        <p class="paragraph text-black-50 ">Welcome to our services </p>
+      </div>
+      <div class="cont">
+        <div class="row" >
+          <div class="para1" data-aos="fade-right">
+            <h1 id="h1">Diagnostics </h1>
+            <p> We provide several checkup services providing accurate assessment for Cars using latest tools. </p>
+          </div>
+          <div id="head" class="para2" data-aos="fade-left">
+            <h1> Periodic Maintenance </h1>
+            <p>Periodic Maintenance is crucial for the overall health of your car </p>
+          </div>
+        </div>
+
+
+        <div class="row" data-aos="fade-right">
+          <div class="paragraphs">
+            <img src="./images/h1-car-services.webp" alt="">
+          </div>
+        </div>
+
+
+        <div class="row" data-aos="fade-left">
+          <div class="para1">
+            <h1 id="h1">Coolant System </h1>
+            <p>Periodical Inspection of the Coolant System and checking the concentration of the coolant are critical
+              steps to protect your engine from overheating or freezing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="text-center text-lg-start  text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://ar-ar.facebook.com/elkershcars.eg/">El-Kersh Company.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</body>
+<!-- typed script -->
+<script src="./js/typed.umd.js"></script>
+
+<!-- scripts -->
+<script src="./js/main.js"></script>
+<script src="./js/all.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js.map"></script>
+
+<script>
+  startTyped();
+</script>
+
+
+<!-- aos script -->
+<script src="./js/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
